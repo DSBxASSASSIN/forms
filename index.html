@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <title>thijs zijn page</title>
-        <meta author="thijs"/>
+        <meta name="author" content="thijs van slooten">
         <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
         <meta name="viewport" content="width=defice-width, initial-scale=1">
     </head>
@@ -14,6 +14,7 @@
             <div id="form_1">
             Naam:<input type="text" name="naam"> 
             <select name="welkeklas">
+                <option value="kies een klas">kies je klas</option>
                 <option value="mg1a">MG1A</option>
                 <option value="mg1b">MG1B</option>
                 <option value="mg1c">MG1C</option>
@@ -24,56 +25,64 @@
                 <fieldset>
                 <legend>welbevinden</legend>
                     <h3>hoe posetief ben je op dit moment over je opleiding?</h3>
-                    <input type="radio" name="posetief_opleiding" value="1">1
-                    <input type="radio" name="posetief_opleiding" value="2">2
-                    <input type="radio" name="posetief_opleiding" value="3">3
-                    <input type="radio" name="posetief_opleiding" value="4">4
-                    <input type="radio" name="posetief_opleiding" value="5">5
-                    <input type="radio" name="posetief_opleiding" value="6">6
-                    <input type="radio" name="posetief_opleiding" value="7">7
-                    <input type="radio" name="posetief_opleiding" value="8">8
-                    <input type="radio" name="posetief_opleiding" value="9">9
-                    <input type="radio" name="posetief_opleiding" value="10">10
+                    <input type="radio" name="posetief_opleiding" value="1" required>1
+                    <input type="radio" name="posetief_opleiding" value="2" required>2
+                    <input type="radio" name="posetief_opleiding" value="3" required>3
+                    <input type="radio" name="posetief_opleiding" value="4" required>4
+                    <input type="radio" name="posetief_opleiding" value="5" required>5
+                    <input type="radio" name="posetief_opleiding" value="6" required>6
+                    <input type="radio" name="posetief_opleiding" value="7" required>7
+                    <input type="radio" name="posetief_opleiding" value="8" required>8
+                    <input type="radio" name="posetief_opleiding" value="9" required>9
+                    <input type="radio" name="posetief_opleiding" value="10" required>10
                     <h3>hoe gemotiveerd ben je momenteel om de oplijding af te maken?</h3>
-                    <input type="radio" name="gemotiveerd_opleiding" value="1">1
-                    <input type="radio" name="gemotiveerd_opleiding" value="2">2
-                    <input type="radio" name="gemotiveerd_opleiding" value="3">3
-                    <input type="radio" name="gemotiveerd_opleiding" value="4">4
-                    <input type="radio" name="gemotiveerd_opleiding" value="5">5
-                    <input type="radio" name="gemotiveerd_opleiding" value="6">6
-                    <input type="radio" name="gemotiveerd_opleiding" value="7">7
-                    <input type="radio" name="gemotiveerd_opleiding" value="8">8
-                    <input type="radio" name="gemotiveerd_opleiding" value="9">9
-                    <input type="radio" name="gemotiveerd_opleiding" value="10">10
+                    <input type="radio" name="gemotiveerd_opleiding" value="1" required>1
+                    <input type="radio" name="gemotiveerd_opleiding" value="2" required>2
+                    <input type="radio" name="gemotiveerd_opleiding" value="3" required>3
+                    <input type="radio" name="gemotiveerd_opleiding" value="4" required>4
+                    <input type="radio" name="gemotiveerd_opleiding" value="5" required>5
+                    <input type="radio" name="gemotiveerd_opleiding" value="6" required>6
+                    <input type="radio" name="gemotiveerd_opleiding" value="7" required>7
+                    <input type="radio" name="gemotiveerd_opleiding" value="8" required>8
+                    <input type="radio" name="gemotiveerd_opleiding" value="9" required>9
+                    <input type="radio" name="gemotiveerd_opleiding" value="10" required>10
                     <h3>hoeveel vertrouwen heb je momenteel in je eigen kunnen?</h3>
-                    <input type="radio" name="vertrouwen_opleiding" value="1">1
-                    <input type="radio" name="vertrouwen_opleiding" value="2">2
-                    <input type="radio" name="vertrouwen_opleiding" value="3">3
-                    <input type="radio" name="vertrouwen_opleiding" value="4">4
-                    <input type="radio" name="vertrouwen_opleiding" value="5">5
-                    <input type="radio" name="vertrouwen_opleiding" value="6">6
-                    <input type="radio" name="vertrouwen_opleiding" value="7">7
-                    <input type="radio" name="vertrouwen_opleiding" value="8">8
-                    <input type="radio" name="vertrouwen_opleiding" value="9">9
-                    <input type="radio" name="vertrouwen_opleiding" value="10">10
+                    <input type="radio" name="vertrouwen_opleiding" value="1" required>1
+                    <input type="radio" name="vertrouwen_opleiding" value="2" required>2
+                    <input type="radio" name="vertrouwen_opleiding" value="3" required>3
+                    <input type="radio" name="vertrouwen_opleiding" value="4" required>4
+                    <input type="radio" name="vertrouwen_opleiding" value="5" required>5
+                    <input type="radio" name="vertrouwen_opleiding" value="6" required>6
+                    <input type="radio" name="vertrouwen_opleiding" value="7" required>7
+                    <input type="radio" name="vertrouwen_opleiding" value="8" required>8
+                    <input type="radio" name="vertrouwen_opleiding" value="9" required>9
+                    <input type="radio" name="vertrouwen_opleiding" value="10" required>10
                 </fieldset>
                 <fieldset>
                     <legend>sterke kanten</legend>
                     <h3>wat zijn jouw sterke kanten</h3>
-                    <input type="checkbox" name="sterke_kanten" value="html/css">coderen in html/css
-                    <input type="checkbox" name="sterke_kanten" value="java"> programmeren in java 
-                    <input type="checkbox" name="sterke_kanten" value="javascript">scripting in javascript
-                    <input type="checkbox" name="sterke_kanten" value="plannen">plannen
-                    <input type="checkbox" name="sterke_kanten" value="samenwerken"> samenwerken
+                    <input type="checkbox" name="sterke_kanten1" value="html/css">coderen in html/css
+                    <input type="checkbox" name="sterke_kanten2" value="java"> programmeren in java 
+                    <input type="checkbox" name="sterke_kanten3" value="javascript">scripting in javascript
+                    <input type="checkbox" name="sterke_kanten4" value="plannen">plannen
+                    <input type="checkbox" name="sterke_kanten5" value="samenwerken"> samenwerken
                 </fieldset>
                 <fieldset>
                     <legend>nog te ontwikkelen</legend>
                     <h3>aan welke skills moet jij nog extra aandacht besteden?</h3>
-                    <input type="checkbox" name="ontwikkelen_kanten" value="html/css">coderen in html/css
-                    <input type="checkbox" name="ontwikkelen_kanten" value="java"> programmeren in java 
-                    <input type="checkbox" name="sterke_kanten" value="javascript">scripting in javascript
-                    <input type="checkbox" name="sterke_kanten" value="plannen">plannen
-                    <input type="checkbox" name="sterke_kanten" value="samenwerken"> samenwerken
+                    <input type="checkbox" name="ontwikkelen_kanten1" value="html/css">coderen in html/css
+                    <input type="checkbox" name="ontwikkelen_kanten2" value="java"> programmeren in java 
+                    <input type="checkbox" name="ontwikkelen_kanten3" value="javascript">scripting in javascript
+                    <input type="checkbox" name="ontwikkelen_kanten4" value="plannen">plannen
+                    <input type="checkbox" name="ontwikkelen_kanten5" value="samenwerken"> samenwerken
+                </fieldset>
+                <fieldset>
+                    <legend>gay?</legend>
+                    <h3>ben je gay?</h3>
+                    <label for="ja"></label>
+                    <input type="radio" name="gay?" value="ja" required autofocus>
+                    <label for="nee"></label>
+                    <input type="radio" name="gay?" value="no" required autofocus>
                 </fieldset>
                 <h3>wat zijn jouw plannen voor de toekomst</h3>
                 <textarea style="height: 200px; width: 500px;"></textarea>
